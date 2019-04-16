@@ -1,0 +1,29 @@
+{
+  "name": "validity-validate-duplicate-property",
+  "version": "0.1.0",
+  "description": "Validity style validator to ensure properties are not duplicated across collections",
+  "main": "validator.js",
+  "scripts": {
+    "test": "istanbul test ./node_modules/.bin/_mocha -- -R spec"
+  },
+  "files": [
+    "validator.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jack828/validity-validate-duplicate-property.git"
+  },
+  "author": "Jack Burgess <jackburgess124@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jack828/validity-validate-duplicate-property/issues"
+  },
+  "homepage": "https://github.com/jack828/validity-validate-duplicate-property#readme",
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^6.1.3"
+  }
+}
