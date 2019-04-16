@@ -1,6 +1,6 @@
 {
   "name": "validity-validate-duplicate-property",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Validity style validator to ensure properties are not duplicated across collections",
   "main": "validator.js",
   "scripts": {
